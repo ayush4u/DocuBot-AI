@@ -804,3 +804,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ by the DocuBot team**
 
 *Transforming document interaction through intelligent AI* 🚀
+#   A u t h e n t i c a t i o n   i m p r o v e m e n t s  
+ 
