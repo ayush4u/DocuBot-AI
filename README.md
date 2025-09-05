@@ -12,7 +12,7 @@
 
 ## 🌟 Key Features
 
-### � Advanced RAG Architecture
+### 🤖 Advanced RAG Architecture
 - **Multi-Modal Document Processing**: PDF, DOCX, TXT with intelligent chunking
 - **Hybrid Vector Search**: ChromaDB + Semantic similarity algorithms
 - **Context-Aware Responses**: Conversation history integration with document relevance
@@ -24,7 +24,7 @@
 - **Temperature Optimization**: Dynamic temperature adjustment based on query type
 - **Token Optimization**: Efficient context window management
 
-### � Dual Database Architecture
+### 🗄️ Dual Database Architecture
 - **Supabase (PostgreSQL)**: User management, chat history, metadata
 - **ChromaDB**: High-performance vector embeddings and similarity search
 - **Redis Caching**: Response caching with TTL-based invalidation
@@ -44,24 +44,24 @@
 ## 🏗️ Architecture Overview
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Frontend      │    │   Backend API   │    │   Databases     │
-│   (Next.js)     │◄──►│   (Express)     │◄──►│   (Supabase +   │
-│                 │    │                 │    │    ChromaDB)    │
-│ • React 19      │    │ • Smart Routing │    │                 │
-│ • TypeScript    │    │ • RAG Engine    │    │ • PostgreSQL    │
-│ • Tailwind CSS  │    │ • LLM Services  │    │ • Vector Store  │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-         │                       │                       │
-         ▼                       ▼                       ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   User Auth     │    │   Document      │    │   AI Models     │
-│   (JWT)         │    │   Processing    │    │   (Multiple)    │
-│                 │    │                 │    │                 │
-│ • Registration  │    │ • PDF Parsing   │    │ • Groq          │
-│ • Login         │    │ • Text Chunking │    │ • Hugging Face  │
-│ • Sessions      │    │ • Embeddings    │    │ • OpenAI        │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
++-----------------+    +-----------------+    +-----------------+
+|   Frontend      |    |   Backend API   |    |   Databases     |
+|   (Next.js)     |<-->|   (Express)     |<-->|   (Supabase +   |
+|                 |    |                 |    |    ChromaDB)    |
+| • React 19      |    | • Smart Routing |    |                 |
+| • TypeScript    |    | • RAG Engine    |    | • PostgreSQL    |
+| • Tailwind CSS  |    | • LLM Services  |    | • Vector Store  |
++-----------------+    +-----------------+    +-----------------+
+         |                       |                       |
+         v                       v                       v
++-----------------+    +-----------------+    +-----------------+
+|   User Auth     |    |   Document      |    |   AI Models     |
+|   (JWT)         |    |   Processing    |    |   (Multiple)    |
+|                 |    |                 |    |                 |
+| • Registration  |    | • PDF Parsing   |    | • Groq          |
+| • Login         |    | • Text Chunking |    | • Hugging Face  |
+| • Sessions      |    | • Embeddings    |    | • OpenAI        |
++-----------------+    +-----------------+    +-----------------+
 ```
 
 ## 🔬 Backend Architecture & Fine-Tuning
@@ -804,12 +804,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ by the DocuBot team**
 
 *Transforming document interaction through intelligent AI* 🚀
-#   A u t h e n t i c a t i o n   i m p r o v e m e n t s 
- 
- #   R A G   I m p l e m e n t a t i o n 
- 
- #   U I   I m p r o v e m e n t s 
- 
- #   F i n a l   D o c u m e n t a t i o n 
- 
- 
